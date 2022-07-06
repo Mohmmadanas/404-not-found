@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap"); /* font-family: 'Inconsolata', monospace; */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"); /* font-family: 'Space Mono', monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  padding: 3rem;
+  display: inline-block;
+}
+
+nav > h3 {
+  font-family: "Inconsolata", monospace;
+  width: 700;
+  font-size: 2rem;
+}
+
+.Scarecrow {
+  display: flex;
+}
+
+img {
+  width: 50rem;
+  height: 43rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+.text {
+  align-content: flex-start;
+  font-family: "Space Mono", monospace;
+}
+
+.text > h1 {
+  font-size: 5.5rem;
+  color: #333333;
+  letter-spacing: -0.035em;
+  margin-bottom: 2rem;
+}
+
+.text > p {
+  font-size: 1.5rem;
+  color: #4f4f4f;
+  letter-spacing: -0.035em;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+}
+
+.text > button {
+  width: 13.5rem;
+  height: 4.5rem;
+  border: none;
+  color: #fff;
+  background-color: #333333;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+}
+
+@media only screen and (max-width: 390px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+  img {
+    width: 22rem;
+    height: 19rem;
+    margin-top: 3.5rem;
+    margin-left: 1.25rem;
+    margin-right: 0;
+  }
+
+  .page {
+    padding: 0;
+    display: inline-block;
+  }
+
+  nav > h3 {
+    font-family: "Inconsolata", monospace;
+    width: 700;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .Scarecrow {
+    display: block;
+  }
+
+  .text {
+    font-family: "Space Mono", monospace;
+  }
+
+  .text > h1 {
+    font-size: 3rem;
+    color: #333333;
+    letter-spacing: -0.035em;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .text > p {
+    font-size: 1.25em;
+    color: #4f4f4f;
+    letter-spacing: -0.035em;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .text > button {
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    border: none;
+    color: #fff;
+    background-color: #333333;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}
